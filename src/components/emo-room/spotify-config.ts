@@ -3,7 +3,8 @@
  * artista ou episódio do Spotify. Ex.: https://open.spotify.com/playlist/...
  * O áudio permanece inteiramente sob controle do Spotify Embed oficial.
  */
-export const SPOTIFY_RESOURCE = "";
+export const SPOTIFY_RESOURCE =
+  "https://open.spotify.com/playlist/0jQsQDSd3ccUFEFfkP00F4";
 
 export function getSpotifyEmbedUrl(resource: string): string | null {
   const value = resource.trim();
